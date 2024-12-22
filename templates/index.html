@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZoloniGuide</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+
+</head>
+<body>
+    <form action="/" method="GET" id="bus-form"> <!--have to use this id in js to reference it-->
+        <input type="search" placeholder="Enter bus number" name="bus_num"> 
+        <button type="submit">Search</button>
+    </form>
+    
+    <div id="map" style="height: 600px; width: 100%;"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeApTyg3nvmanawRN8A6o_9a55oShs-Ks&callback=initMap" async defer></script>
+<!--this script is for the map-->
+</body>
+</html>
