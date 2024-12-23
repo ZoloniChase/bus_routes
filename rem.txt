@@ -1,13 +1,9 @@
-sudo mysql -u root -p #open sql #root_password
+sudo mysql -u root -p #open sql 
 source myenv/bin/activate #python environment
 Python Flask, Google Javascript API,Javascript,SQL
-AIzaSyBeApTyg3nvmanawRN8A6o_9a55oShs-Ks
 
 
-{
-    "start_lat": 6.8046,
-    "start_long": -58.1553,
-    "stop_lat": 6.80801,
-    "stop_long": -58.1628
-}
+
+
+
 

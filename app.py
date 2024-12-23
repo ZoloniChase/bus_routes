@@ -38,9 +38,7 @@ def query():
         else:
             return jsonify({"error": "No bus found"}), 404 #else return this
             
-    #except Exception as e:
-      #  print(f"Error: {e}")  # Log the error
-       # return jsonify({"error": "Database error"}), 500
+    
         
     finally:
         if 'cursor' in locals():
