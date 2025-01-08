@@ -1,9 +1,0 @@
-sudo mysql -u root -p #open sql 
-source myenv/bin/activate #python environment
-Python Flask, Google Javascript API,Javascript,SQL
-
-
-
-
-
-
